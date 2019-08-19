@@ -4,11 +4,11 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 public class UserDetailsRequestModel
 {
-	@NotNull(message = "Message")
+	@NotNull(message = "First Name can not be null")
 	private String firstName;
-	@NotNull(message = "Message")
+	@NotNull(message = "Last Name can not be null")
 	private String lastName;
-	@NotNull(message = "Message")
+	@NotNull(message = "Email Can not be null")
 	@Email
 	private String email;
 	@NotNull(message = "Message")
